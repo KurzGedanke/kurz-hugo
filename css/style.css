@@ -3,7 +3,7 @@ html {
   position: relative;
   min-height: 100%;
   color: #FFFFEE;
-  font-family: 'Space Mono', monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, sans-serif;
 }
 
 body {
@@ -21,15 +21,18 @@ a {
   color: #555577;
 }
 
+hr {
+  background-color: #FFFFEE;
+}
+
 .navbar a {
   color: #FFFFEE;
-  font-family: 'Space Mono', monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, sans-serif;
 }
 
 .wrapper {
   margin-top: 75px;
 }
-
 
 .page-heading {
   color: #881133;
@@ -44,6 +47,24 @@ a {
     font-size: 85px;
   }
 }
+
+article.post-preview {
+  font-family: 'Source Code Pro', monospace, sans-serif;
+}
+
+.post-preview {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-preview > .post-preview-tags > ul li {
+  display: inline;
+}
+
+.post-preview > .post-preview-tags > ul > a {
+  float: right;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
