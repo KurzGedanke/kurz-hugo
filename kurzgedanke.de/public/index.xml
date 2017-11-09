@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KurzGedanke</title>
+    <link>https://kurzgedanke.de/</link>
+    <description>Recent content on KurzGedanke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kurzgedanke@gmail.com (KurzGedanke)</managingEditor>
+    <webMaster>kurzgedanke@gmail.com (KurzGedanke)</webMaster>
+    <lastBuildDate>Wed, 01 Nov 2017 15:57:30 +0100</lastBuildDate>
+    
+	<atom:link href="https://kurzgedanke.de/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Headless ssh and Wifi on RaspberryPi</title>
+      <link>https://kurzgedanke.de/post/headless-ssh-and-wifi-on-raspberrypi/</link>
+      <pubDate>Wed, 01 Nov 2017 15:57:30 +0100</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/post/headless-ssh-and-wifi-on-raspberrypi/</guid>
+      <description>&lt;h4 id=&#34;ssh&#34;&gt;SSH:&lt;/h4&gt;
+
+&lt;p&gt;To enable SSH on a RaspberryPi with out a monitor, keyboard or mouse put your SD-Card in a card reader
+and plug into your main PC.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PyNoteBook</title>
+      <link>https://kurzgedanke.de/projects/pynotebook/</link>
+      <pubDate>Thu, 12 Oct 2017 12:16:17 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/projects/pynotebook/</guid>
+      <description>pyNoteBook A simple command line notebook written in python, based on sqlite3.
+writing/reading from database creating user hashing password logging in adding notes listing notes deleting notes formating input correction mark up  ╭─loki@Loki ~/Developer/pyNoteBook ‹master› ╰─$ python3 pyNoteBook.py 1 ↵ Database user created! Database note created! Welcome to pyNoteBook! 1. Login 2. Register 2 REGISTER: ----------------------------- Please enter a Username: KurzGedanke Please enter a Password: password User created! ╭─loki@Loki ~/Developer/pyNoteBook ‹master› ╰─$ python3 pyNoteBook.</description>
+    </item>
+    
+    <item>
+      <title>How to Encrypt Files with AES</title>
+      <link>https://kurzgedanke.de/post/how-to-encrypt-files-with-aes/</link>
+      <pubDate>Wed, 13 Sep 2017 11:49:24 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/post/how-to-encrypt-files-with-aes/</guid>
+      <description>&lt;p&gt;In times of mass surveillance, public Wi-Fis and a lot of bad people trying to steal your data you want to encrypt your data before you send them over the internet.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://kurzgedanke.de/page/about/</link>
+      <pubDate>Wed, 13 Sep 2017 11:37:00 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/page/about/</guid>
+      <description>Hi, my name is KurzGedanke and I am a tech enthusiast from Germany! I have studied four semester of IT-Security at Ruhr University Bochum and during this time I discovered my fascination with software development. To the winter semester 2017, I changed therefore from university to Westfälische Hochschule Gelsenkirchen in order to study computer science. When I’m not studying I’m developing software, reading about what’s new in tech, writing and recording tutorials and keeping an eye on what happens with the Blockchain and cryptocurrencies.</description>
+    </item>
+    
+    <item>
+      <title>Donations</title>
+      <link>https://kurzgedanke.de/donate/</link>
+      <pubDate>Tue, 12 Sep 2017 13:00:00 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/donate/</guid>
+      <description>If you&amp;rsquo;d like to donate to me for my content you can use following cryptocurrencys addresses. Every contribution (no matter how small) will be deeply appreciated:
+ BTC: 14U8Cdwu67zX5voQsqCu1Vbp9vV31VbxbP ETH: 0xfbc9722e7639445F490340167b565BeA492A920b  Or donate directly with Changelly*:
+Can&#39;t load widget  * Changely is a servive that lets you exchange almost every coin to another coin. The payment through the widgets goes directly to me. If you want to exchange your own coins, you can use the link above.</description>
+    </item>
+    
+    <item>
+      <title>Imgur-Url</title>
+      <link>https://kurzgedanke.de/projects/imgur-url/</link>
+      <pubDate>Mon, 11 Sep 2017 13:16:30 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/projects/imgur-url/</guid>
+      <description>Imgurl-URL A command line tool and module written in python with requests which gathers all image links from an Imgur Album and ether lists them as an array or downloads the images to your desired destination.</description>
+    </item>
+    
+    <item>
+      <title>toDecimalIP</title>
+      <link>https://kurzgedanke.de/projects/todecimalip/</link>
+      <pubDate>Sun, 10 Sep 2017 13:16:30 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/projects/todecimalip/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;h3 id=&#34;todecimalip-https-github-com-kurzgedanke-todecimalip&#34;&gt;&lt;a href=&#34;https://github.com/KurzGedanke/toDecimalIP&#34;&gt;toDecimalIP&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://kurzgedanke.de/ip&#34;&gt;A website&lt;/a&gt; which let&amp;rsquo;s you convert a hexadecimal IP to an decimal IP without any distraction or ads. It is written in HTML, pure CSS and client side JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Problems with Flask and PyCharm</title>
+      <link>https://kurzgedanke.de/post/problems-with-flask-and-pycharm/</link>
+      <pubDate>Wed, 06 Sep 2017 13:35:44 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/post/problems-with-flask-and-pycharm/</guid>
+      <description>&lt;p&gt;I started a new Flask project and coded it in VisualCode and a Terminal. Therefore, I set up my virtual environment, installed Flask and started to code after the &lt;a href=&#34;http://flask.pocoo.org/docs/0.12/quickstart/&#34;&gt;Flask Quistart&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Decentraland | How To Mine On A Mac</title>
+      <link>https://kurzgedanke.de/post/decentraland-hot-to-mine-on-a-mac/</link>
+      <pubDate>Mon, 03 Jul 2017 12:35:30 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/post/decentraland-hot-to-mine-on-a-mac/</guid>
+      <description>&lt;p&gt;Welcome! My Name is &lt;a href=&#34;https://kurzgedanke.de&#34;&gt;KurzGedanke&lt;/a&gt; and today I&amp;rsquo;m gonna to show you how to set up your first node and miner for the Decentraland project!
+
+But at first:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://kurzgedanke.de/post/welcome/</link>
+      <pubDate>Tue, 27 Jun 2017 13:05:31 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/post/welcome/</guid>
+      <description>This will be fantastic!
+def fantastic(questionmark): if questionmark: print(&#39;Yeah!&#39;) fantastic(True)   Edit: added pep8
+ </description>
+    </item>
+    
+  </channel>
+</rss>

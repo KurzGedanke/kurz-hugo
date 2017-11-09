@@ -1,0 +1,34 @@
+{{ define "main" }}
+<!-- Main -->
+<div class="main">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="post-list">
+        {{ range .Paginator.Pages }}
+        <!-- Article -->
+        <article class="post-preview">
+          <div class="post-preview-heading">
+            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <span class="post-preview-date"> - {{ .Date }}</span>
+          </div>
+          <div class="post-preview-text">
+            {{ .Summary }}
+          </div>
+          {{ if .Params.tags }}
+          <div class="post-preview-tags">
+            <ul>
+              {{ range .Params.tags }}
+              <li><a href="{{ $.Site.LanguagePrefix | absURL }}tags/{{ . | urlize }}/">{{ . }}</a></li>
+              {{ end }}
+              <a href="{{ .Permalink }}">[READ MORE]</a>
+            </ul>
+          </div>
+          {{ end }}
+          <hr>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

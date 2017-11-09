@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on KurzGedanke</title>
+    <link>https://kurzgedanke.de/page/</link>
+    <description>Recent content in Pages on KurzGedanke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kurzgedanke@gmail.com (KurzGedanke)</managingEditor>
+    <webMaster>kurzgedanke@gmail.com (KurzGedanke)</webMaster>
+    <lastBuildDate>Wed, 13 Sep 2017 11:37:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://kurzgedanke.de/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>https://kurzgedanke.de/page/about/</link>
+      <pubDate>Wed, 13 Sep 2017 11:37:00 +0200</pubDate>
+      <author>kurzgedanke@gmail.com (KurzGedanke)</author>
+      <guid>https://kurzgedanke.de/page/about/</guid>
+      <description>Hi, my name is KurzGedanke and I am a tech enthusiast from Germany! I have studied four semester of IT-Security at Ruhr University Bochum and during this time I discovered my fascination with software development. To the winter semester 2017, I changed therefore from university to Westfälische Hochschule Gelsenkirchen in order to study computer science. When I’m not studying I’m developing software, reading about what’s new in tech, writing and recording tutorials and keeping an eye on what happens with the Blockchain and cryptocurrencies.</description>
+    </item>
+    
+  </channel>
+</rss>
