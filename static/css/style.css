@@ -23,6 +23,7 @@ a {
 
 hr {
   background-color: #FFFFEE;
+  opacity: 0.1;
 }
 
 blockquote {
@@ -44,6 +45,10 @@ blockquote {
   font-family:  'Orbitron', sans-serif;
   font-size: 35px;
   line-height: 90%;
+}
+
+.social-icon {
+  margin-left: 5px;
 }
 
 @media only screen and (min-width: 414px) {
@@ -71,6 +76,11 @@ article.post-preview {
 .post-preview {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.post-preview-date {
+  margin-bottom: 5px;
+  background-color: #24050E; 
 }
 
 .post-preview > .post-preview-tags > ul li {

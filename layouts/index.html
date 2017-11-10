@@ -10,8 +10,8 @@
         <article class="post-preview">
           
           <div class="post-preview-heading">
-            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-            <span class="post-preview-date"> - {{ .Date }}</span>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <span class="post-preview-date">{{ .Date }}</span>
           </div>
           <div class="post-preview-text">
             {{ .Summary }}
@@ -22,7 +22,6 @@
               {{ range .Params.tags }}
               <li><a href="{{ $.Site.LanguagePrefix | absURL }}tags/{{ . | urlize }}/">{{ . }}</a></li>
               {{ end }}
-              <a href="{{ .Permalink }}">[READ MORE]</a>
             </ul>
           </div>
           {{ end }}
