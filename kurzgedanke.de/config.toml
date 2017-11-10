@@ -8,6 +8,12 @@ pygmentsUseClasses = true
 pygmentCodeFences = true
 #disqusShortname = "XXX"
 googleAnalytics = "UA-38760742-3"
+enableemoji = true
+
+
+# Paginate
+
+paginate = 2
 
 [Params]
 # subtitle = "My personal Site"
@@ -18,16 +24,6 @@ googleAnalytics = "UA-38760742-3"
   rss = true
   comments = false
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
 
 [Author]
   name = "KurzGedanke"
@@ -52,41 +48,3 @@ googleAnalytics = "UA-38760742-3"
   #vk = "username"
   #paypal = "username"
   #telegram = "username"
-
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
-
-[[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    weight = 2
-
-[[menu.main]]
-    parent = "projects"
-    name = "Imgur-URL"
-    url = "projects/imgur-url"
-    weight = 1
-
-[[menu.main]]
-    parent = "projects"
-    name = "to-Decimal-IP"
-    url = "projects/todecimalip"
-    weight = 2
-
-[[menu.main]]
-  parent = "projects"
-    name = "pyNoteBook"
-    url = "projects/pynotebook"
-    weight = 3
-
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3

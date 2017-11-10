@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/style.css">
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/highlight.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/pygment_highlights.css">
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/syntax.css">
     <!-- Orbitron Font from Matt McInerney under http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web -->
     <link href="https://fonts.googleapis.com/css?family=Orbitron:700,900" rel="stylesheet">
     <!-- Source Code Pro Font from Paul D. Hunt under http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web -->
@@ -16,4 +16,9 @@
     <meta name="author" content="KurzGednake">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {{ .Hugo.Generator }}
-</head>
+    <!-- Syntax Highlight -->
+    <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </head>
