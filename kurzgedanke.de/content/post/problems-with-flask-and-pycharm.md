@@ -34,13 +34,13 @@ If you have the same problem: Feel welcome, I've got the solution!
 
 Create a New Project, choose the Flask Template and select your existing flask project folder. Say `yes`to the pop-up which asks you to create a project from existing source. 
  
-![PyCharm Project Creation](/img/flaskPyCharm/newProject.png)
+{{< responsiveImage "/img/flaskPyCharm/newProject.png" "PyCharm Project Creation" >}}
  
 Your project should open now and you can change your intepreter in the settings to your virtualenv or whatever you desire. 
 
 If you try to run the app now you should see something like this:
 
-![PyCharm Console with nothing in it](/img/flaskPyCharm/nothing.png)
+{{< responsiveImage "/img/flaskPyCharm/nothing.png" "PyCharm Console with nothing in it" >}}
 
 I tried everything but the solution is damn simple... add this at the end of your code:
 

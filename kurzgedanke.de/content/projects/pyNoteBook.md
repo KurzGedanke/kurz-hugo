@@ -4,13 +4,13 @@ date: 2017-10-12T12:16:17+02:00
 tags: ["python", "sqlite", "notebook"]
 ---
 
-***
-### [pyNoteBook](https://github.com/KurzGedanke/pyNoteBook)
 
+A simple command line notebook written in python, based on sqlite3.
+
+<!--more-->
 
 ![Python3.6](https://img.shields.io/badge/Python-3.6-blue.svg)
 
-A simple command line notebook written in python, based on sqlite3.
 
 - [x] writing/reading from database
 - [x] creating user
@@ -22,6 +22,7 @@ A simple command line notebook written in python, based on sqlite3.
 - [ ] formating
 - [ ] input correction
 - [ ] mark up
+
 
 ```bash
 ╭─loki@Loki ~/Developer/pyNoteBook  ‹master›

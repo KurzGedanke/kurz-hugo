@@ -14,7 +14,7 @@ This is possible with something called _OpenSLL_ and _AES_. _AES_ is a cryptolog
 
 On Mac open your terminal with the spotlight search and entering `terminal`. Hit enter to start it up.
 
-![Terminal on a Mac](/img/encrypt_with_aes/terminal.png)
+{{< responsiveImage "/img/encrypt_with_aes/terminal.png" "Terminal on a Mac" >}}
 
 You need to navigate to the folder where the file, you want to encrypt, is located. In my case this is the Desktop.
 If you want to know more about navigating the terminal, [here is a link to a tutorial.](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855)
