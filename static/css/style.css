@@ -3,7 +3,7 @@ html {
   position: relative;
   min-height: 100%;
   color: #FFFFEE;
-  font-family: 'Source Code Pro', monospace, sans-serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -35,27 +35,32 @@ blockquote {
   font-family: 'Source Code Pro', monospace, sans-serif;
 }
 
-.wrapper {
+.header-wrapper {
   margin-top: 75px;
-  margin-bottom: 75px;
+}
+
+.wrapper {
+  margin-top: 5px;
+  margin-bottom: 120px;
 }
 
 .page-heading {
   color: #BF1949;
-  font-family:  'Orbitron', sans-serif;
-  font-size: 35px;
+  font-family:  'Source Code Pro', sans-serif;
+  font-size: 40px;
   line-height: 90%;
+  margin-bottom: 20px;
 }
 
 .social-icon {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 @media only screen and (min-width: 414px) {
   .page-heading {
     color: #BF1949;
-    font-family:  'Orbitron', sans-serif;
-    font-size: 50px;
+    font-family:  'Source Code Pro', sans-serif;
+    font-size: 55px;
     line-height: 90%;
   }
 }
@@ -63,8 +68,8 @@ blockquote {
 @media only screen and (min-width: 800px) {
   .page-heading {
     color: #BF1949;
-    font-family:  'Orbitron', sans-serif;
-    font-size: 85px;
+    font-family:  'Source Code Pro', sans-serif;
+    font-size: 100px;
     line-height: 90%;
   }
 }
@@ -111,7 +116,7 @@ article.post-preview {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
-  line-height: 60px;
+  height: 100px;
+  line-height: 50px;
   background-color: #555577;
 }

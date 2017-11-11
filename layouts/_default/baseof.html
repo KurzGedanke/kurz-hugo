@@ -3,8 +3,10 @@
   {{ partial "head.html" .}}
   <body>
     {{ partial "navbar.html" . }}
+    <div class="header-wrapper">
+    {{ partial "header.html" . }}
+  </div>
     <div class="wrapper">
-      {{ partial "header.html" . }}
       {{ block "main" . }}
       {{ end }}
     </div>
