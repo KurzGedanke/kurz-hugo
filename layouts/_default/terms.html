@@ -1,14 +1,14 @@
 {{ define "main" }}
   {{ $data := .Data }}
   <div class="container">
-    <article class="post-preview">
-      <div class="list-group col-md-6">
+    <div class="post-preview">
+      <div class="list-group col-md-6 text-center" style="margin: auto;">
       {{ range $key, $value := .Data.Terms.ByCount }}
-      <a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="list-group-item">
+      <a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="list-group-item" style="background-color: #37233D; border-color: #555577;">
           {{ $value.Name }}<span class="badge">{{ $value.Count }}</span></a>
       {{ end }}
       </div>
-    </article>
+    </div>
   </div>
 {{ end }}
 
