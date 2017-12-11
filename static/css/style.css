@@ -85,7 +85,7 @@ article.post-preview {
 
 .post-preview-date {
   padding: 1px;
-  background-color: #24050E; 
+  background-color: #24050E;
 }
 
 .post-preview > .post-preview-tags > ul li {
@@ -111,6 +111,7 @@ article.post-preview {
 .pager > .next {
   float: left;
 }
+
 
 .footer {
   position: absolute;

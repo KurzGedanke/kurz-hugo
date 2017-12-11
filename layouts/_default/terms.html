@@ -1,14 +1,19 @@
 {{ define "main" }}
-  {{ $data := .Data }}
-  <div class="container">
-    <div class="post-preview">
-      <div class="list-group col-md-6 text-center" style="margin: auto;">
+{{ $data := .Data }}
+<div class="container">
+  <div class="post-preview">
+    <div class="list-group col-md-6 text-center" style="margin: auto;">
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" type="button" onclick="getUserInput()">Go!</button>
+        </span>
+        <input id="search-input" type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+      </div>
       {{ range $key, $value := .Data.Terms.ByCount }}
-      <a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="list-group-item" style="background-color: #37233D; border-color: #555577;">
-          {{ $value.Name }}<span class="badge">{{ $value.Count }}</span></a>
-      {{ end }}
+      <a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="list-group-item" id="{{ $value.Name }}" style="background-color: #37233D; border-color: #555577;">
+        {{ $value.Name }}<span class="badge">{{ $value.Count }}</span></a>
+        {{ end }}
       </div>
     </div>
   </div>
-{{ end }}
-
+  {{ end }}
