@@ -1,8 +1,12 @@
 function getUserInput() {
- var searchTerm = document.getElementById('search-input');
- console.log(searchTerm.value);
+    var searchTerm = document.getElementById('search-input');
+    console.log(searchTerm.value);
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
+
+    $("#search-input").keypress(function (e) {
+        getUserInput;
+    });
 
 });
