@@ -1,37 +1,28 @@
-/*
-Light-Theme Colors:
 
-background-color: #FFFFEE;
-color: #0E0E0E;
-link: #47586B;
-heading: #871235;
-post-preview-date: #7C9BBF;
-
-*/
 html {
   position: relative;
   min-height: 100%;
-  color: #0E0E0E;
+  color: #FFFFEE;
   font-family: sans-serif;
 }
 
 body {
   margin-bottom: 60px;
 
-  background-color: #FFFFEE;
-  color: #0E0E0E;
+  background-color: #37233D;
+  color: #FFFFEE;
 }
 
 nav {
-  background-color: #47586B;
+  background-color: #555577;
 }
 
 a {
-  color: #47586B;
+  color: #9AC4F8;
 }
 
 hr {
-  background-color: #0E0E0E;
+  background-color: #FFFFEE;
   opacity: 0.1;
 }
 
@@ -40,7 +31,7 @@ blockquote {
 }
 
 .navbar a {
-  color: #47586B;
+  color: #FFFFEE;
   font-family: 'Source Code Pro', monospace, sans-serif;
 }
 
@@ -67,7 +58,7 @@ blockquote {
 
 @media only screen and (min-width: 414px) {
   .page-heading {
-    color: #871235;
+    color: #BF1949;
     font-family:  'Source Code Pro', sans-serif;
     font-size: 55px;
     line-height: 90%;
@@ -76,7 +67,7 @@ blockquote {
 
 @media only screen and (min-width: 800px) {
   .page-heading {
-    color: #871235;
+    color: #BF1949;
     font-family:  'Source Code Pro', sans-serif;
     font-size: 100px;
     line-height: 90%;
@@ -94,7 +85,7 @@ article.post-preview {
 
 .post-preview-date {
   padding: 1px;
-  background-color: #7C9BBF;
+  background-color: #24050E;
 }
 
 .post-preview > .post-preview-tags > ul li {
@@ -109,8 +100,8 @@ article.post-preview {
   display: inline;
 }
 .pager > div > .btn {
-  background-color: #47586B;
-  border-color: #47586B;
+  background-color: #555577;
+  border-color: #555577;
 }
 
 .pager > .previous {
@@ -128,5 +119,5 @@ article.post-preview {
   width: 100%;
   height: 100px;
   line-height: 50px;
-  background-color: #47586B;
+  background-color: #555577;
 }
