@@ -10,7 +10,7 @@
         <input id="search-input" type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
       </div>
       {{ range $key, $value := .Data.Terms.ByCount }}
-      <a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="list-group-item" id="{{ $value.Name }}" style="background-color: #37233D; border-color: #555577;">
+      <a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="list-group-item" id="{{ $value.Name }}" style="background-color: #FFFFEE; border-color: #555577;">
         {{ $value.Name }}<span class="badge">{{ $value.Count }}</span></a>
         {{ end }}
       </div>
