@@ -1,28 +1,28 @@
 <!-- Navbar -->
 <div class="container">
   <nav class="navbar navbar-expand-md fixed-top navbar-dark">
-    <a class="navbar-brand" href="{{ " " | absLangURL }}">KurzGedanke!</a>
+    <a class="navbar-brand" href="{{ "" | absLangURL }}">KurzGedanke!</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="{{ " " | absLangURL }}">Home<span class="sr-only">(Current)</span></a>
+          <a class="nav-link active" href="{{ "" | absLangURL }}">Home<span class="sr-only">(Current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="{{ " " | absLangURL }}"page/about/ ">About Me</a>
+          <a class="nav-link active" href="{{ "" | absLangURL }}page/about/">About Me</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link active " href="{{ " " | absLangURL }} "projects">Projects</a>
+          <a class="nav-link active" href="{{ "" | absLangURL }}projects">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="{{ " " | absLangURL }}"tags ">Tags</a>
+        <li class="nav-item ">
+          <a class="nav-link active" href="{{ "" | absLangURL }}tags">Tags</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0 " method="get " action="https://www.google.com/search " target="_blank ">
-        <input type="hidden " name="sitesearch " value="{{ .Site.BaseURL }} " />
-        <input class="form-control mr-sm-2 " type="search " placeholder="Google Site Search " aria-label="Search " name="q " type="text " required>
+      <form class="form-inline my-2 my-lg-0 " method="get " action="https://www.google.com/search" target="_blank ">
+        <input type="hidden" name="sitesearch " value="{{ .Site.BaseURL }} " />
+        <input class="form-control mr-sm-2 " type="search " placeholder="Google Site Search" aria-label="Search " name="q " type="text " required>
         <input class="btn btn-outline-success my-2 my-sm-0 " style="color: white; border-color: white; " type="submit " name="sa " value="Search ">
       </form>
     </div>
