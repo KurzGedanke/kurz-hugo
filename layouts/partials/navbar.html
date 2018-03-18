@@ -3,7 +3,7 @@
   <nav class="navbar navbar-expand-md fixed-top navbar-dark">
     <a class="navbar-brand" href="{{ "" | absLangURL }}">KurzGedanke!</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
@@ -13,11 +13,19 @@
         <li class="nav-item">
           <a class="nav-link active" href="{{ "" | absLangURL }}page/about/">About Me</a>
         </li>
-        <li class="nav-item ">
+        <li class="nav-item">
           <a class="nav-link active" href="{{ "" | absLangURL }}projects">Projects</a>
         </li>
-        <li class="nav-item ">
+        <li class="nav-item">
           <a class="nav-link active" href="{{ "" | absLangURL }}tags">Tags</a>
+        </li>
+        <li class="nav-item">
+          <div class="input-group form-inline">
+            <select class="custom-select" id="theme-selected" onchange="switchTheme()">
+              <option value="Light">Light</option>
+              <option value="Dark">Dark</option>
+            </select>
+          </div>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0" method="get" action="https://www.google.com/search" target="_blank">
