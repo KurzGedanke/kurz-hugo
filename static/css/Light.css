@@ -1,29 +1,29 @@
 html {
   position: relative;
   min-height: 100%;
-  color: #FFFFEE;
+  color: #0E0E0E;
   font-family: sans-serif; }
 
 body {
   margin-bottom: 60px;
-  background-color: #37233D;
-  color: #FFFFEE; }
+  background-color: #FFFFFE;
+  color: #0E0E0E; }
 
 nav {
   background-color: #555577; }
 
 a {
-  color: #9AC4F8; }
+  color: #47586B; }
 
 hr {
-  background-color: #FFFFEE;
+  background-color: #0E0E0E;
   opacity: 0.1; }
 
 blockquote {
   color: #446677; }
 
 .navbar a {
-  color: #FFFFEE;
+  color: #0E0E0E;
   font-family: "Source Code Pro", monospace, sans-serif; }
 
 .header-wrapper {
@@ -34,7 +34,7 @@ blockquote {
   margin-bottom: 120px; }
 
 .page-heading {
-  color: #BF1949;
+  color: #871235;
   font-family: "Source Code Pro", monospace, sans-serif;
   font-size: 40px;
   line-height: 90%;
@@ -45,13 +45,13 @@ blockquote {
 
 @media only screen and (min-width: 414px) {
   .page-heading {
-    color: #BF1949;
+    color: #871235;
     font-family: "Source Code Pro", monospace, sans-serif;
     font-size: 55px;
     line-height: 90%; } }
 @media only screen and (min-width: 800px) {
   .page-heading {
-    color: #BF1949;
+    color: #871235;
     font-family: "Source Code Pro", monospace, sans-serif;
     font-size: 100px;
     line-height: 90%; } }
@@ -79,7 +79,7 @@ article.post-preview {
 
 .post-preview-date {
   padding: 1px;
-  background-color: #24050E; }
+  background-color: #7C9BBF; }
 
 .footer {
   background-color: #555577;
