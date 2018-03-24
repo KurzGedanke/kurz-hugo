@@ -1,132 +1,92 @@
-/*
-Light-Theme Colors:
-
-background-color: #FFFFEE;
-color: #0E0E0E;
-link: #47586B;
-heading: #871235;
-post-preview-date: #7C9BBF;
-
-*/
 html {
   position: relative;
   min-height: 100%;
-  color: #0E0E0E;
-  font-family: sans-serif;
-}
+  color: #FFFFEE;
+  font-family: sans-serif; }
 
 body {
   margin-bottom: 60px;
-
-  background-color: #FFFFEE;
-  color: #0E0E0E;
-}
+  background-color: #37233D;
+  color: #FFFFEE; }
 
 nav {
-  background-color: #47586B;
-}
+  background-color: #555577; }
 
 a {
-  color: #47586B;
-}
+  color: #9AC4F8; }
 
 hr {
-  background-color: #0E0E0E;
-  opacity: 0.1;
-}
+  background-color: #FFFFEE;
+  opacity: 0.1; }
 
 blockquote {
-  color: #446677
-}
+  color: #446677; }
 
 .navbar a {
-  color: #47586B;
-  font-family: 'Source Code Pro', monospace, sans-serif;
-}
+  color: #FFFFEE;
+  font-family: "Source Code Pro", monospace, sans-serif; }
 
 .header-wrapper {
-  margin-top: 75px;
-}
+  margin-top: 75px; }
 
 .wrapper {
   margin-top: 5px;
-  margin-bottom: 120px;
-}
+  margin-bottom: 120px; }
 
 .page-heading {
   color: #BF1949;
-  font-family:  'Source Code Pro', sans-serif;
+  font-family: "Source Code Pro", monospace, sans-serif;
   font-size: 40px;
   line-height: 90%;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .social-icon {
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 @media only screen and (min-width: 414px) {
   .page-heading {
-    color: #871235;
-    font-family:  'Source Code Pro', sans-serif;
+    color: #BF1949;
+    font-family: "Source Code Pro", monospace, sans-serif;
     font-size: 55px;
-    line-height: 90%;
-  }
-}
-
+    line-height: 90%; } }
 @media only screen and (min-width: 800px) {
   .page-heading {
-    color: #871235;
-    font-family:  'Source Code Pro', sans-serif;
+    color: #BF1949;
+    font-family: "Source Code Pro", monospace, sans-serif;
     font-size: 100px;
-    line-height: 90%;
-  }
-}
-
+    line-height: 90%; } }
 article.post-preview {
-  font-family: 'Source Code Pro', monospace, sans-serif;
-}
+  font-family: "Source Code Pro", monospace, sans-serif; }
 
 .post-preview {
   margin-top: 20px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
+
+.post-preview .post-preview-tags > ul li {
+  display: inline; }
+.post-preview .post-preview-tags > ul > a {
+  float: right; }
+
+.paper div {
+  display: inline; }
+.paper > div > .btn {
+  background-color: #555577;
+  border-color: #555577; }
+.paper > .previous {
+  float: right; }
+.paper > .next {
+  float: left; }
 
 .post-preview-date {
   padding: 1px;
-  background-color: #7C9BBF;
-}
-
-.post-preview > .post-preview-tags > ul li {
-  display: inline;
-}
-
-.post-preview > .post-preview-tags > ul > a {
-  float: right;
-}
-
-.pager div {
-  display: inline;
-}
-.pager > div > .btn {
-  background-color: #47586B;
-  border-color: #47586B;
-}
-
-.pager > .previous {
-  float: right;
-}
-
-.pager > .next {
-  float: left;
-}
-
+  background-color: #24050E; }
 
 .footer {
+  background-color: #555577;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 100px;
-  line-height: 50px;
-  background-color: #47586B;
-}
+  line-height: 50px; }
+
+/*# sourceMappingURL=Light.css.map */

@@ -1,0 +1,132 @@
+/*
+Light-Theme Colors:
+
+background-color: #FFFFEE;
+color: #0E0E0E;
+link: #47586B;
+heading: #871235;
+post-preview-date: #7C9BBF;
+
+*/
+html {
+  position: relative;
+  min-height: 100%;
+  color: #0E0E0E;
+  font-family: sans-serif;
+}
+
+body {
+  margin-bottom: 60px;
+
+  background-color: #FFFFEE;
+  color: #0E0E0E;
+}
+
+nav {
+  background-color: #47586B;
+}
+
+a {
+  color: #47586B;
+}
+
+hr {
+  background-color: #0E0E0E;
+  opacity: 0.1;
+}
+
+blockquote {
+  color: #446677
+}
+
+.navbar a {
+  color: #47586B;
+  font-family: 'Source Code Pro', monospace, sans-serif;
+}
+
+.header-wrapper {
+  margin-top: 75px;
+}
+
+.wrapper {
+  margin-top: 5px;
+  margin-bottom: 120px;
+}
+
+.page-heading {
+  color: #BF1949;
+  font-family:  'Source Code Pro', sans-serif;
+  font-size: 40px;
+  line-height: 90%;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 414px) {
+  .page-heading {
+    color: #871235;
+    font-family:  'Source Code Pro', sans-serif;
+    font-size: 55px;
+    line-height: 90%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .page-heading {
+    color: #871235;
+    font-family:  'Source Code Pro', sans-serif;
+    font-size: 100px;
+    line-height: 90%;
+  }
+}
+
+article.post-preview {
+  font-family: 'Source Code Pro', monospace, sans-serif;
+}
+
+.post-preview {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-preview-date {
+  padding: 1px;
+  background-color: #7C9BBF;
+}
+
+.post-preview > .post-preview-tags > ul li {
+  display: inline;
+}
+
+.post-preview > .post-preview-tags > ul > a {
+  float: right;
+}
+
+.pager div {
+  display: inline;
+}
+.pager > div > .btn {
+  background-color: #47586B;
+  border-color: #47586B;
+}
+
+.pager > .previous {
+  float: right;
+}
+
+.pager > .next {
+  float: left;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  line-height: 50px;
+  background-color: #47586B;
+}

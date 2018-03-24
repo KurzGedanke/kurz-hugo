@@ -1,0 +1,165 @@
+$fontWhite: #FFFFEE;
+$fontMiddle: #9AC4F8;
+$fontHeader: #BF1949;
+$bgDark: #37233D;
+$bgLight: #555577;
+$blockquo: #446677;
+$postDateColor: #24050E;
+$fontFamily: 'Source Code Pro', monospace, sans-serif;
+
+html {
+    position: relative;
+    min-height: 100%;
+    color: $fontWhite;
+    font-family: sans-serif;
+}
+
+body {
+    margin-bottom: 60px;
+
+    background-color: $bgDark;
+    color: $fontWhite;
+}
+
+nav {
+    background-color: $bgLight;
+}
+
+a {
+    color: $fontMiddle;
+}
+
+hr {
+    background-color: $fontWhite;
+    opacity: 0.1;
+}
+
+blockquote {
+    color: $blockquo;
+}
+
+.navbar {
+
+    a {
+        color: $fontWhite;
+        font-family: $fontFamily;
+    }
+}
+
+.header-wrapper {
+    margin-top: 75px;
+}
+
+.wrapper {
+    margin-top: 5px;
+    margin-bottom: 120px;
+}
+
+.page-heading {
+    color: $fontHeader;
+    font-family:  $fontFamily;
+    font-size: 40px;
+    line-height: 90%;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 414px) {
+    .page-heading {
+        color: $fontHeader;
+        font-family:  $fontFamily;
+        font-size: 55px;
+        line-height: 90%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .page-heading {
+    color: $fontHeader;
+    font-family:  $fontFamily;
+    font-size: 100px;
+    line-height: 90%;
+  }
+}
+
+article {
+    &.post-preview {
+        font-family: $fontFamily;
+    }
+}
+
+.post-preview {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post-preview {
+
+    .post-preview-tags {
+
+        > ul {
+
+            li {
+                display: inline;
+            }
+
+            > a {
+                float: right;
+            }
+        }
+    }
+}
+
+.paper {
+    div {
+        display: inline;
+    }
+
+    > div {
+
+        > .btn {
+        background-color: $bgLight;
+        border-color: $bgLight;
+        }
+    }
+
+    > .previous {
+        float: right;
+    }
+
+    > .next {
+        float: left;
+    }
+}
+
+.post-preview-date {
+    padding: 1px;
+    background-color: $postDateColor;
+}
+
+.footer {
+    background-color: $bgLight;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
