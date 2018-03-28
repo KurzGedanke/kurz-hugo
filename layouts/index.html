@@ -2,19 +2,23 @@
 <!-- Main -->
 <div class="main">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-1">
+
+    </div>
+    <div class="col-md-10">
       <div class="post-list">
-        {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
+        {{ $pag := .Paginate (where .Data.Pages "Type" "blog") }}
         {{ range $pag.Pages }}
         <!-- Article -->
         <article class="post-preview">
-          
+
           <div class="post-preview-heading">
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <span class="post-preview-date">{{ .Date }}</span>
           </div>
+          <br>
           <div class="post-preview-text">
-            {{ .Summary }}
+            {{ .Content }}
           </div>
           {{ if .Params.tags }}
           <div class="post-preview-tags">
