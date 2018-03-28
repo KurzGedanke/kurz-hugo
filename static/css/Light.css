@@ -20,7 +20,9 @@ hr {
   opacity: 0.1; }
 
 blockquote {
-  color: #446677; }
+  color: #446677;
+  border-left: 2px solid;
+  padding-left: 10px; }
 
 .navbar a {
   color: #0E0E0E;
@@ -55,17 +57,18 @@ blockquote {
     font-family: "Source Code Pro", monospace, sans-serif;
     font-size: 100px;
     line-height: 90%; } }
-article.post-preview {
+article .post-preview {
   font-family: "Source Code Pro", monospace, sans-serif; }
+  article .post-preview .post-preview-text {
+    fontFamily: sans-serif; }
 
 .post-preview {
   margin-top: 20px;
   margin-bottom: 20px; }
-
-.post-preview .post-preview-tags > ul li {
-  display: inline; }
-.post-preview .post-preview-tags > ul > a {
-  float: right; }
+  .post-preview .post-preview-tags > ul li {
+    display: inline; }
+  .post-preview .post-preview-tags > ul > a {
+    float: right; }
 
 .paper div {
   display: inline; }

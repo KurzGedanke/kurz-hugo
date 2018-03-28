@@ -36,6 +36,8 @@ hr {
 
 blockquote {
     color: $blockquo;
+    border-left: 2px solid;
+    padding-left: 10px;
 }
 
 .navbar {
@@ -86,17 +88,18 @@ blockquote {
 }
 
 article {
-    &.post-preview {
+    .post-preview {
         font-family: $fontFamily;
+
+        .post-preview-text {
+            fontFamily: sans-serif;
+        }
     }
 }
 
 .post-preview {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.post-preview {
 
     .post-preview-tags {
 
@@ -148,18 +151,3 @@ article {
     height: 100px;
     line-height: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
