@@ -20,7 +20,9 @@ hr {
   opacity: 0.1; }
 
 blockquote {
-  color: #446677; }
+  color: #446677;
+  border-left: 2px solid;
+  padding-left: 10px; }
 
 .navbar a {
   color: #FFFFEE;
