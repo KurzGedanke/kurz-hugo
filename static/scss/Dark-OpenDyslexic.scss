@@ -5,13 +5,17 @@ $bgDark: #37233D;
 $bgLight: #555577;
 $blockquo: #446677;
 $postDateColor: #24050E;
-$fontFamily: 'Source Code Pro', monospace, sans-serif;
+$fontFamily: 'opendyslexic';
+
+* {
+    font-family: 'opendyslexic';
+}
 
 html {
     position: relative;
     min-height: 100%;
     color: $fontWhite;
-    font-family: sans-serif;
+    font-family: 'opendyslexic';
 }
 
 body {
@@ -92,7 +96,7 @@ article {
         font-family: $fontFamily;
 
         .post-preview-text {
-            font-Family: sans-serif;
+            font-family: 'opendyslexic';
         }
     }
 }

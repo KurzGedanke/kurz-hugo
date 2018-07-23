@@ -1,6 +1,7 @@
 <head>
     <title>{{ .Title }}</title>
     <!-- Stylesheets and Javascript -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/open-dyslexic.css">
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/bootstrap.min.css">
     <link id="theme" rel="stylesheet" type="text/css" href="">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/solarized-light.min.css">
@@ -11,13 +12,15 @@
     <meta name="description" content="The Personal Site and Blog form KurzGedanke">
     <meta name="keywords" content="blog, kurzgedanke, tech, coding, programming, html, css, javascript, python">
     <meta name="author" content="KurzGednake">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {{ .Hugo.Generator }}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> {{ .Hugo.Generator }}
     <!-- Syntax Highlight -->
     <script src="{{ .Site.BaseURL }}js/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}js/popper.min.js"></script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}js/styleChanger.js"></script>
+    </style>
 </head>

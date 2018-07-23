@@ -1,17 +1,21 @@
-$fontWhite: #FFFFEE;
-$fontMiddle: #9AC4F8;
-$fontHeader: #BF1949;
-$bgDark: #37233D;
+$fontWhite: #0E0E0E;
+$fontMiddle: #47586B;
+$fontHeader: #871235;
+$bgDark: #FFFFFE;
 $bgLight: #555577;
 $blockquo: #446677;
-$postDateColor: #24050E;
-$fontFamily: 'Source Code Pro', monospace, sans-serif;
+$postDateColor: #7C9BBF;
+$fontFamily: 'opendyslexic';
+
+* {
+    font-family: 'opendyslexic';
+}
 
 html {
     position: relative;
     min-height: 100%;
     color: $fontWhite;
-    font-family: sans-serif;
+    font-family: 'opendyslexic';
 }
 
 body {
@@ -92,7 +96,7 @@ article {
         font-family: $fontFamily;
 
         .post-preview-text {
-            font-Family: sans-serif;
+            font-Family: 'opendyslexic';
         }
     }
 }
